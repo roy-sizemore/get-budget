@@ -1,12 +1,12 @@
-const indexDb =
-  window.indexDb ||
-  window.mozindexDb ||
-  window.webkitindexDb ||
-  window.msindexDb ||
-  window.shimindexDb;
+const indexedDB =
+  window.indexedDB ||
+  window.mozindexedDB ||
+  window.webkitindexedDB ||
+  window.msindexedDB ||
+  window.shimindexedDB;
 
 let db;
-const request = indexDb.open("budget", 1);
+const request = indexedDB.open("budget", 1);
 
 // Create object store
 request.onupgradeneeded = ({ target }) => {

@@ -1,0 +1,20 @@
+{
+    "name": "getBudget",
+    "short_name": "getBudget",
+    "icons": [
+      {
+        "src": "icons/icon-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "icons/icon-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+    "theme_color": "#330066",
+    "background_color": "#660066",
+    "start_url": "/",
+    "display": "standalone"
+  }
